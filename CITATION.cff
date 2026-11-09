@@ -4,6 +4,8 @@ type: software
 title: "Reproducible calculations for the two-parameter deformed spin-one DKP oscillator"
 version: 1.0.0
 date-released: 2026-11-09
+doi: 10.5281/zenodo.24083787
+url: "https://github.com/altazm-art/qp-dkp-reproducibility"
 authors:
   - family-names: "Altintas"
     given-names: "Azmi Ali"
