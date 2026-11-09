@@ -8,10 +8,20 @@ Oscillator*. It computes **Tables I–V, all 13 figures, and the numerical
 cutoff/precision checks** from the defining positive-energy spectrum.
 No external dataset or Mathematica installation is required.
 
-The code, documentation and numerical reference outputs form one release.
-The same release contents can be deposited on GitHub and supplied to the
-journal as a code/data supplement. This prepared archive does not itself
-claim that a public repository or DOI has already been created.
+## Repository and archival record
+The source code, documentation, reference numerical data, and figure-generation scripts are publicly available on GitHub:
+
+https://github.com/altazm-art/qp-dkp-reproducibility
+
+The initial release (v1.0.0) has been deposited on Zenodo:
+
+https://doi.org/10.5281/zenodo.24083788
+
+The DOI covering all archived versions is:
+
+https://doi.org/10.5281/zenodo.24083787
+
+The package provides the calculations for Tables I–V, all 13 manuscript figures, and the associated numerical validation checks.
 
 ## Install and run
 
