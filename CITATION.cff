@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this software and the accompanying qp-DKP oscillator article when reusing these calculations."
 type: software
 title: "Reproducible calculations for the two-parameter deformed spin-one DKP oscillator"
-version: 1.0.0
-date-released: 2026-11-09
+version: 1.0.1
+date-released: 2026-11-10
 doi: 10.5281/zenodo.24083787
 url: "https://github.com/altazm-art/qp-dkp-reproducibility"
 authors:
