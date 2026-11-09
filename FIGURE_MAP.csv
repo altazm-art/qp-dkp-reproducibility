@@ -1,0 +1,14 @@
+figure,filename,data_files,convention
+1,Fig1_spectrum_vector.pdf,figure1_spectral_data.csv,positive spectrum; n=0..30; r=1
+2,Fig2_delta_zero.pdf,figure2_contour.csv;figure2_slice.csv,n=10; r=1; Sigma=0.30
+3,Fig3_partition_vector.pdf,baseline_observables.csv,Z; r=1; baseline cutoffs
+4,Fig4_free_energy_vector.pdf,baseline_observables.csv,F; r=1; baseline cutoffs
+5,Fig5_internal_energy_vector.pdf,baseline_observables.csv,U; r=1; baseline cutoffs
+6,Fig_entropy_finite_temperature.pdf,adaptive_thermal_observables.csv,S; r=1; E_N/tau>=62
+7,Fig_heat_capacity_finite_temperature.pdf,adaptive_thermal_observables.csv,C; r=1; E_N/tau>=62
+8,Fig_fixed_sigma_thermal_peaks.pdf,fixed_sigma_peaks.csv,"Sigma=.30,.50; r=1,.1; N=200"
+9,Fig8_small_r_observables.pdf,small_r_thermodynamics.csv,"r=1,.1,.01; N=200; shifted observables"
+10,Fig9_small_r_heat_capacity.pdf,small_r_thermodynamics.csv,"all four pairs; r=1,.1,.01; N=200"
+11,Fig_NR_DKP_comparison.pdf,nr_dkp_thermodynamics.csv,"NR and r=.001,.01,.1; N=200"
+12,Fig_extended_thermal_checks.pdf,adaptive_thermal_observables.csv,r=1; tau=10..1e12; continuum guides
+13,Fig10_high_tau_ratios.pdf,adaptive_thermal_observables.csv,r=1; tau=1e2..1e100; continuum target

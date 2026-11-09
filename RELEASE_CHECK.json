@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "version": "1.0.0",
+  "complete_command": "python reproduce_all.py --output-dir reproduced",
+  "full_run": {
+    "version": "1.0.0",
+    "quick": false,
+    "seconds": 14.88023179600009,
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.8",
+    "tables": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "figure_count": 13,
+    "independent_precision_checks": true,
+    "reference_data_used_as_calculation_input": false
+  },
+  "tables_vs_previous_verified_release": {
+    "I": {
+      "rows": 12,
+      "max_absolute_numeric_change_from_previous_verified_release": 0
+    },
+    "II": {
+      "rows": 8,
+      "max_absolute_numeric_change_from_previous_verified_release": 0
+    },
+    "III": {
+      "rows": 4,
+      "max_absolute_numeric_change_from_previous_verified_release": 0
+    },
+    "IV": {
+      "rows": 9,
+      "max_absolute_numeric_change_from_previous_verified_release": 0
+    },
+    "V": {
+      "rows": 8,
+      "max_absolute_numeric_change_from_previous_verified_release": 0
+    }
+  },
+  "independent_archived_implementation_check": {
+    "heat_capacity_values": 80,
+    "max_absolute_error": 3.3306690738754696e-16,
+    "tolerance": 2e-12
+  },
+  "table_IV_cutoff_62_to_68_max_absolute_C_change": 0.0,
+  "figure_validation": {
+    "contour_points": 2601,
+    "slice_points": 201,
+    "analytic_slice_slope": 13.236440421351338,
+    "finite_difference_slope": 13.236440422659255,
+    "small_r_rows": 2892,
+    "nr_dkp_rows": 3856,
+    "figure_count": 13,
+    "all_filenames": [
+      "Fig1_spectrum_vector.pdf",
+      "Fig2_delta_zero.pdf",
+      "Fig3_partition_vector.pdf",
+      "Fig4_free_energy_vector.pdf",
+      "Fig5_internal_energy_vector.pdf",
+      "Fig_entropy_finite_temperature.pdf",
+      "Fig_heat_capacity_finite_temperature.pdf",
+      "Fig_fixed_sigma_thermal_peaks.pdf",
+      "Fig8_small_r_observables.pdf",
+      "Fig9_small_r_heat_capacity.pdf",
+      "Fig_NR_DKP_comparison.pdf",
+      "Fig_extended_thermal_checks.pdf",
+      "Fig10_high_tau_ratios.pdf"
+    ]
+  },
+  "reference_outputs_used_as_input": false
+}

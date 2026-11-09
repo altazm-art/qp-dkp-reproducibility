@@ -1,0 +1,24 @@
+{
+  "contour_points": 2601,
+  "slice_points": 201,
+  "analytic_slice_slope": 13.236440421351338,
+  "finite_difference_slope": 13.236440422659255,
+  "small_r_rows": 2892,
+  "nr_dkp_rows": 3856,
+  "figure_count": 13,
+  "all_filenames": [
+    "Fig1_spectrum_vector.pdf",
+    "Fig2_delta_zero.pdf",
+    "Fig3_partition_vector.pdf",
+    "Fig4_free_energy_vector.pdf",
+    "Fig5_internal_energy_vector.pdf",
+    "Fig_entropy_finite_temperature.pdf",
+    "Fig_heat_capacity_finite_temperature.pdf",
+    "Fig_fixed_sigma_thermal_peaks.pdf",
+    "Fig8_small_r_observables.pdf",
+    "Fig9_small_r_heat_capacity.pdf",
+    "Fig_NR_DKP_comparison.pdf",
+    "Fig_extended_thermal_checks.pdf",
+    "Fig10_high_tau_ratios.pdf"
+  ]
+}

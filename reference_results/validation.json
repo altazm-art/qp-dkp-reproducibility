@@ -1,0 +1,131 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "mpmath": "1.3.0",
+  "float_mantissa_bits": 53,
+  "moment_method": "math.fsum, shifted/scaled energies, centered variance",
+  "adaptive_terminal_E_over_tau": 62,
+  "full": true,
+  "table_checks": [
+    "Table I: 12 peaks match printed precision",
+    "Table II: 8 peaks match printed precision",
+    "Table III: NR, DKP and first-order entries match printed precision",
+    "Table IV: all 45 thermal values match printed precision",
+    "Table V: all 16 ratios match printed precision"
+  ],
+  "peak_cutoff_200_to_300_abs_change": 0,
+  "table_IV_cutoff_62_to_68_max_absolute_C_change": 0.0,
+  "tail_bounds_table_V": [
+    {
+      "mu": 0.1,
+      "nu": 0.1,
+      "tau": 1000000000000.0,
+      "relative_Z_bound": 3.799104350260003e-32,
+      "absolute_C_bound": 1.6864041699222905e-28,
+      "x_first_omitted": 66.35791959825168,
+      "raw_scaled_moment_bounds": [
+        1.9681428174481376e-29,
+        1.3104602718590078e-27,
+        8.726291245664114e-26
+      ]
+    },
+    {
+      "mu": 0.1,
+      "nu": 0.1,
+      "tau": 1e+100,
+      "relative_Z_bound": 9.457409923652597e-34,
+      "absolute_C_bound": 4.385703063262034e-30,
+      "x_first_omitted": 67.86869829315341,
+      "raw_scaled_moment_bounds": [
+        4.322607740543233e-30,
+        2.9432898315488274e-28,
+        2.004271786515037e-26
+      ]
+    },
+    {
+      "mu": 0.1,
+      "nu": 0.2,
+      "tau": 1000000000000.0,
+      "relative_Z_bound": 2.520586540842439e-33,
+      "absolute_C_bound": 1.22769229447757e-29,
+      "x_first_omitted": 69.62760589822507,
+      "raw_scaled_moment_bounds": [
+        6.586197658023889e-31,
+        4.593869232862923e-29,
+        3.2043703566407162e-27
+      ]
+    },
+    {
+      "mu": 0.1,
+      "nu": 0.2,
+      "tau": 1e+100,
+      "relative_Z_bound": 1.5184256000664566e-36,
+      "absolute_C_bound": 8.53768141204209e-33,
+      "x_first_omitted": 74.86398559390494,
+      "raw_scaled_moment_bounds": [
+        3.47350654137e-33,
+        2.604399405931616e-31,
+        1.95282610614174e-29
+      ]
+    },
+    {
+      "mu": 0.2,
+      "nu": 0.1,
+      "tau": 1000000000000.0,
+      "relative_Z_bound": 9.043898349109878e-33,
+      "absolute_C_bound": 4.187455185151306e-29,
+      "x_first_omitted": 67.78154908464688,
+      "raw_scaled_moment_bounds": [
+        4.717567667480019e-30,
+        3.208119213546555e-28,
+        2.181822224098765e-26
+      ]
+    },
+    {
+      "mu": 0.2,
+      "nu": 0.1,
+      "tau": 1e+100,
+      "relative_Z_bound": 6.519852445011766e-33,
+      "absolute_C_bound": 2.855375256563671e-29,
+      "x_first_omitted": 65.94373226979563,
+      "raw_scaled_moment_bounds": [
+        2.9822976374722444e-29,
+        1.9734002048224866e-27,
+        1.305926055117884e-25
+      ]
+    },
+    {
+      "mu": 0.2,
+      "nu": 0.3,
+      "tau": 1000000000000.0,
+      "relative_Z_bound": 2.4007748628592413e-35,
+      "absolute_C_bound": 1.3413907893641835e-31,
+      "x_first_omitted": 74.62925369970256,
+      "raw_scaled_moment_bounds": [
+        4.223003279016764e-33,
+        3.154973253345093e-31,
+        2.3571202271628295e-29
+      ]
+    },
+    {
+      "mu": 0.2,
+      "nu": 0.3,
+      "tau": 1e+100,
+      "relative_Z_bound": 5.048614027191416e-37,
+      "absolute_C_bound": 2.9477889539468593e-33,
+      "x_first_omitted": 76.32834684771656,
+      "raw_scaled_moment_bounds": [
+        7.707979542029421e-34,
+        5.889414906339324e-32,
+        4.500023774965769e-30
+      ]
+    }
+  ],
+  "figure_data_bounds": {
+    "baseline_undeformed_max_relative_Z_bound": 4.4942823265545844e-13,
+    "baseline_undeformed_max_absolute_C_bound": 5.936861396933802e-10,
+    "adaptive_all_max_relative_Z_bound": 5.646853650588428e-24,
+    "adaptive_all_max_absolute_C_bound": 3.242219970056578e-20
+  }
+}

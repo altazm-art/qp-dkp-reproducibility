@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this software and the accompanying qp-DKP oscillator article when reusing these calculations."
+type: software
+title: "Reproducible calculations for the two-parameter deformed spin-one DKP oscillator"
+version: 1.0.0
+date-released: 2026-11-09
+authors:
+  - family-names: "Altintas"
+    given-names: "Azmi Ali"
+license: MIT
+abstract: "Canonical spectral and thermal calculations, Tables I–V, all 13 manuscript figures, cutoff controls and independent precision checks for a selected positive-energy qp-DKP oscillator sector."
