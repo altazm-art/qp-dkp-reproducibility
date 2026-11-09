@@ -1,12 +1,12 @@
 {
   "status": "passed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "complete_command": "python reproduce_all.py --output-dir reproduced",
   "full_run": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "quick": false,
-    "seconds": 14.88023179600009,
-    "python": "3.12.14",
+    "seconds": 23.05128964300002,
+    "python": "3.13.5",
     "numpy": "2.3.5",
     "scipy": "1.17.0",
     "mpmath": "1.3.0",
@@ -74,5 +74,20 @@
       "Fig10_high_tau_ratios.pdf"
     ]
   },
-  "reference_outputs_used_as_input": false
+  "reference_outputs_used_as_input": false,
+  "release_scope": "Metadata and file-integrity maintenance release; physics/numerical algorithms unchanged.",
+  "reference_comparison": {
+    "reference_release": "1.0.0",
+    "csv_data_files_compared": 14,
+    "json_numeric_validation_files_compared": 4,
+    "all_compared_reference_results_byte_identical": true,
+    "pdf_figure_files_compared": 13,
+    "all_reference_figure_pdfs_byte_identical": true,
+    "archived_environment_records_retained": [
+      "reference_results/run_summary.json",
+      "reference_results/validation.json"
+    ],
+    "note": "The archived v1.0.0 run_summary.json and validation.json record Python 3.12.14, whereas this v1.0.1 full-run check used Python 3.13.5; numerical artifacts were unchanged."
+  },
+  "historical_check_provenance": "The independent_archived_implementation_check values were carried forward from v1.0.0 and were not re-run against the historical separate implementation during this maintenance release. The bundled independent precision/discrete checks were re-run by reproduce_all.py."
 }

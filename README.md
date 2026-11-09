@@ -1,6 +1,6 @@
 # qp-DKP oscillator: reproducible calculations
 
-Version **1.0.0**, 9 November 2026. Author: **Azmi Ali Altintas**.
+Version **1.0.1**, 10 November 2026. Author: **Azmi Ali Altintas**.
 
 This package accompanies *Spectral and Thermostatistical Properties of a
 Two-Parameter (q,p)-Deformed Hamiltonian Extension of the Spin-One DKP
@@ -23,10 +23,18 @@ https://doi.org/10.5281/zenodo.24083787
 
 The package provides the calculations for Tables I–V, all 13 manuscript figures, and the associated numerical validation checks.
 
+This v1.0.1 maintenance release updates repository/archive metadata,
+release verification and file-integrity hashes; it does not alter the
+oscillator model or numerical algorithms. The frozen `reference_results/`
+records retain their original v1.0.0 run metadata as provenance.
+
 ## Install and run
 
 Use Python 3.10 or newer; the complete run was tested with the environment
-recorded in `tested_environment.json` (Python 3.12). Install dependencies:
+recorded in `tested_environment.json` (Python 3.12). A second complete
+run for v1.0.1 used Python 3.13.5 with the same recorded package versions
+and reproduced all archived numerical results and 13 PDFs byte-for-byte
+(see `RELEASE_CHECK.json`). Install dependencies:
 
 ```bash
 python -m pip install -r requirements.txt

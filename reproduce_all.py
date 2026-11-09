@@ -21,7 +21,7 @@ import plot_all_figures
 import verify_one_parameter
 import verify_discrete_high_temperature
 
-VERSION='1.0.0'
+VERSION=Path(__file__).with_name('VERSION').read_text(encoding='utf-8').strip()
 
 
 def main(argv=None):
